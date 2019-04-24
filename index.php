@@ -1,6 +1,5 @@
 <?php
 include "database/event.php";
-var_dump($row["nama"]) ;
 
 ?>
 <html>
@@ -78,7 +77,7 @@ var_dump($row["nama"]) ;
                 
                             <div class="stuff">
                                 <h3>“Bersama kami, kamu akan mendapatkan teman ngobrol hingga teman hidup”<br>
-                                    <i>- Rendra <?php  ?></i></h3>
+                                    <i>- Rendra <?php echo $row["nama"]; ?></i></h3>
                             </div>
                 
             </div>
