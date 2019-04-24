@@ -15,6 +15,7 @@ section{
 
 /* Navbar */
 .navbar{
+    /* background-color: #1a1a1a; */
     background-color: #1a1a1a;
     position: fixed;
     width: 100%;
@@ -30,6 +31,15 @@ section{
 }
 .navbar li a{
     color: aliceblue;
+}
+.navbar li .fa{
+    color: aliceblue;
+    font-size: 25px;
+    transform: scale(.8);
+}
+.navbar li .fa:hover{
+    transition: .1s;
+    color: #909090;
 }
 
 
@@ -78,27 +88,27 @@ section{
 
 .contain .stuff {
     position: relative;
-    height: 75vh;
+    height: 100vh;
     display: flex;
     align-items: center;
     justify-content: center;
     margin: 0 auto;
-    
     max-width: 70%;
+    
 }
 
 .contain .stuff h3{
-    /* background-color: khaki; */
-    color: aliceblue;
-    padding: 50px;
-    border-left: 5px solid red;
-    border-radius: 100px;
+    background-color: khaki;
+    color: #1e272e;
+    padding: 20px;
+    border-left: 5px solid #1e272e;
+    /* border-radius: 100px; */
 }
 
 
 
 .bg1 {
-    background-image: url('../img/cover.jpg');
+    background-image: url('../img/coverr.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -195,15 +205,15 @@ section{
     
 }
 .photo{
-    background-color: pink;
-    
-}
-.video{
     background-color: #515151;
     
 }
-.web{
+.video{
     background-color: burlywood;
+    
+}
+.web{
+    background-color: #60a3bc;
     
 }
 
@@ -630,6 +640,44 @@ section{
 }
 
 
+/* modal form */
+
+.modal .modal-header{
+    background-color: khaki;
+}
+
+.modal .close{
+    color: #1a1a1a;
+    transition: .2s;
+    padding: 10px;
+    /* text-align: center;
+    display: flex;
+    justify-content: center; */
+    font-size: 30px;
+}
+
+.modal .modal-body i{
+    font-size: 37px;
+    color: #353b48;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+   
+}
+.modal .modal-c-tabs{
+    padding: 10px;
+}
+.modal .modal-c-tabs ul{
+    background-color: #ffda79;
+}
+.modal .modal-c-tabs li a{
+    text-decoration: none;
+    color: #1e272e;
+}
+.modal .modal-footer{
+    background-color: #ffda79;
+}
+
 /* footer */
 
 .footer{
@@ -717,7 +765,9 @@ section{
 }
 
 
-/* gallery.html */
+/* --------------------------------------------------------------------------------- */
+/* pages */
+
 
   
   

@@ -5,7 +5,7 @@ $(document).ready(function(){
           sn.style.top = "0" 
       } else { 
           $('#scroll').fadeOut(); 
-          sn.style.top = "-80px"
+          sn.style.top = "0px"
       } 
   console.log($(this).scrollTop());
   $(window).scroll(function(){
@@ -15,7 +15,7 @@ $(document).ready(function(){
           sn.style.top = "0" 
       } else { 
           $('#scroll').fadeOut(); 
-          sn.style.top = "-80px"
+          sn.style.top = "0px"
       } 
   }); 
   $('#scroll').click(function(){ 
@@ -125,3 +125,9 @@ $(document).ready(function(){
   
 // });
 // });
+
+
+
+// ---------------------------------------------------------------------
+// pages
+
