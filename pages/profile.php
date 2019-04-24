@@ -48,7 +48,7 @@
         <div class="collapse navbar-collapse" id="navbarCollapse">
           <ul class="navbar-nav mr-auto sidenav" id="navAccordion">
             <li class="nav-item active">
-              <a class="nav-link" href="profile.html"><i class="fas fa fa-home"></i>Profile <span class="sr-only">(current)</span></a>
+              <a class="nav-link" href="profile.php"><i class="fas fa fa-home"></i>Profile <span class="sr-only">(current)</span></a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="event.php"><i class="fas fa fa-calendar"></i>Event</a>

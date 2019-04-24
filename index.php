@@ -298,7 +298,7 @@
                                         </div>
                                     </div>
                                     <div class="text-center mt-2">
-                                      <button class="btn btn-info"><a href="pages/profile.html">Log in</a></button>
+                                      <button class="btn btn-info"><a href="pages/profile.php">Log in</a></button>
                                     </div>
                                   </div>
                                   <div class="modal-footer">
