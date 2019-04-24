@@ -1,7 +1,3 @@
-<?php
-include "database/event.php";
-
-?>
 <html>
     <head lang="en">
         <meta charset="UTF-8">
@@ -77,7 +73,7 @@ include "database/event.php";
                 
                             <div class="stuff">
                                 <h3>“Bersama kami, kamu akan mendapatkan teman ngobrol hingga teman hidup”<br>
-                                    <i>- Rendra <?php echo $row["nama"]; ?></i></h3>
+                                    <i>- Rendra</i></h3>
                             </div>
                 
             </div>

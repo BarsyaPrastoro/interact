@@ -1,4 +1,7 @@
-<!DOCTYPE html>
+<?php
+include "../database/event.php";
+
+?>
 <html>
     <head lang="en">
         <meta charset="UTF-8">
@@ -73,8 +76,8 @@
                                     <div class="card" style="width: 18rem;">
                                         <img class="card-img-top" src="../img/service/join.jpg" alt="Card image cap">
                                         <div class="card-body">
-                                            <h5 class="card-title">Photography</h5>
-                                            <p class="card-text">Pada event ini, kita akan bertukar pikiran tentang kamera</p>
+                                            <h5 class="card-title"><?php echo $row["nama"]; ?></h5>
+                                            <p class="card-text">Pada event ini, kita akan kumpul developer dengan bahasan java</p>
                                             <a href="#" class="btn btn-primary">Join Event</a>
                                         </div>
                                     </div>

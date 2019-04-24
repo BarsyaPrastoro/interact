@@ -51,13 +51,13 @@
               <a class="nav-link" href="profile.html"><i class="fas fa fa-home"></i>Profile <span class="sr-only">(current)</span></a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="event.html"><i class="fas fa fa-calendar"></i>Event</a>
+              <a class="nav-link" href="event.php"><i class="fas fa fa-calendar"></i>Event</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="report.html"><i class="fas fa fa-newspaper"></i>Report</a>
+              <a class="nav-link" href="report.php"><i class="fas fa fa-newspaper"></i>Report</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="transaksi.html"><i class="fas fa fa-shopping-cart"></i>Transaksi</a>
+              <a class="nav-link" href="transaksi.php"><i class="fas fa fa-shopping-cart"></i>Transaksi</a>
             </li>
           </ul>
           <form class="form-inline ml-auto mt-2 mt-md-0">
