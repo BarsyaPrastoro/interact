@@ -1,0 +1,118 @@
+/* navbar */
+@media (max-width: 992px){
+    .navbar h3{
+        margin: 0;
+    }
+    .navbar-nav li{
+        margin: 0;
+    }
+    
+}
+
+@media (max-width: 992px){
+    .contain .stuff h1{
+        font-size: 25px;
+    }
+}
+/* service bar circle */
+@media (max-width: 990px){
+    .card{
+        margin-bottom: 10px;
+        
+    }
+  }
+
+@media (max-width:576px) {
+    .slidingVertical span{
+        animation: topToBottom 12.5s linear infinite 0s;
+        -ms-animation: topToBottom 12.5s linear infinite 0s;
+        -webkit-animation: topToBottom 12.5s linear infinite 0s;
+        color: #00abe9;
+        opacity: 0;
+        overflow: hidden;
+        position: absolute;
+        top: 120px;
+        left: 0;
+     }
+     
+}
+@media (max-width: 990px){
+    /* section */
+    .service{
+        height: 100%;
+    }
+    .serviceBox .service-content{
+        height: 100%;
+        
+    }
+    .ourworks{
+        height: 100%;
+    }
+    .ourworks .hovereffect{
+        margin-bottom: 10px;
+    }
+}
+
+/* @media only screen and (max-width:1200px){
+    .serviceBox{ margin: 0; }
+}
+@media only screen and (max-width:990px){
+    .serviceBox{ margin: 0 0 40px; }
+} */
+
+@media (max-width:990px){
+    .serviceBox{
+        margin-bottom: 20px;
+    }
+    .graphic, .photo, .video, .web{
+        height: auto;
+    }
+}
+
+
+
+
+@media (max-width: 990px){
+    .aboutus {
+        height: 100%;
+    }
+    .aboutus .card{
+        margin-top: 10px;
+    }
+}
+
+@media (max-width: 990px){
+    .contact .mapouter{
+        height: 200px;
+        width: auto;
+    }
+    .contact .gmap_canvas{
+        height: 200px;
+        width: auto;
+    }
+    .contact .alamat{
+        margin-top: 50px;
+    }
+}
+
+@media (max-width: 990px){
+    .footer{
+        height: 100%;
+        border-left: 20px solid goldenrod;
+    }
+    .footer ul li{
+        margin-left: 5%;
+    }
+    .footer .titlefoot{
+        text-align: center;
+    }
+    .footer .desk{
+        text-align: center;
+        margin: 0 auto;
+    }
+    .footer .desk .media span{
+        font-size: 15px;
+        margin: 5px;
+    }
+}
+

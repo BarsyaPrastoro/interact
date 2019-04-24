@@ -1,0 +1,122 @@
+/* animasi navbar */
+/* shine */
+.navbar-brand{
+    transition: 5s ease-in-out;
+    -webkit-mask-image: linear-gradient(-75deg, rgba(0,0,0,.5) 30%, #000 50%, rgba(0,0,0,.5) 65%);
+    -webkit-mask-size: 200%;
+    animation: shine 2s infinite;
+}
+@-webkit-keyframes shine {
+    from {
+      -webkit-mask-position: 150%;
+    }
+    
+    to {
+      -webkit-mask-position: -50%;
+    }
+}
+
+/* underline */
+.navbar li a{
+  position: relative;
+  text-decoration: none;
+}
+.navbar li a::before{
+  content: '';
+  position: absolute;
+  width: 100%;
+  height: 1px;
+  bottom: 0;
+  left: 0;
+  background-color: aliceblue;
+  visibility: hidden;
+  -webkit-transform: scaleX(0);
+  transform: scaleX(0);
+  -webkit-transition: all 0.3s ease-in-out 0s;
+  transition: all 0.3s ease-in-out 0s;
+}
+
+.navbar li a:hover::before, .navbar li a:focus::before {
+  visibility: visible;
+  -webkit-transform: scaleX(1);
+  transform: scaleX(1);
+}
+
+
+.navbar.scrolled {
+  background-color: transparent;
+  position: fixed;
+  width: 100%;
+  z-index: 100;
+  -webkit-transition: .5s;
+  transition: .5s;
+  /* font-size: 20px;
+  padding-top: 35px; */
+transform: translateY(-100%);
+
+}
+
+
+.navbar.scrolled li a{
+  color: whitesmoke;
+}
+
+/* huruf w nyala */
+.navbar h3{
+  overflow: hidden;
+  color: khaki;
+  z-index: 100;
+  text-shadow: none;
+
+  animation: flicker 3s linear infinite;
+}
+.navbar h3.scrolled{
+  visibility: hidden;
+  overflow: hidden;
+  color: yellow;
+  z-index: 100;
+  text-shadow: none;
+
+  animation: flicker 3s linear infinite;
+}
+
+@keyframes flicker {
+0%, 19.999%, 22%, 62.999%, 64%, 64.999%, 70%, 100% {
+  opacity: .99;
+  text-shadow: -1px -1px 0 darkblue, 1px -1px 0 darkblue, -1px 1px 0 darkblue, 1px 1px 0 darkblue, 0 -2px 8px, 0 0 2px, 0 0 5px #ff7e00, 0 0 15px #ff4444, 0 0 2px #ff7e00, 0 2px 3px #000;
+}
+20%, 21.999%, 63%, 63.999%, 65%, 69.999% {
+  opacity: 0.4;
+  text-shadow: none;
+}
+}
+
+/* contain page */
+
+
+.arrow{
+  animation: move 3s linear infinite;
+  position: relative;
+  text-align: center;
+  transition: 0.5s;
+}
+
+@keyframes move {
+  0%, 100%{
+    bottom: -10px;
+  }
+  50% {
+    bottom: 0px;
+    
+  }
+}
+
+
+/* section page */
+
+
+
+/* section : service */
+
+
+
