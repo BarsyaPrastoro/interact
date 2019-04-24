@@ -32,7 +32,7 @@
     </head>
     <body>
       <nav class="navbar navbar-expand-lg navbar-dark fixed-top bg-dark">
-        <a class="navbar-brand" href="#">interACT</a>
+        <a class="navbar-brand" href="#">INTERACT</a>
         <button
           class="navbar-toggler"
           type="button"
@@ -68,22 +68,75 @@
       </nav>
       
       <main class="content-wrapper">
-        <div class='card card-profile text-center'>
-          <img alt='' class='card-img-top' src='https://unsplash.it/340/160?image=354'>
-          <div class='card-block'>
-            <img alt='' class='card-img-profile' src='https://it.gravatar.com/userimage/3434071/205a00fc16ae537b26b56f40790910fe.jpg?size=140'>
-            <h4 class='card-title'>
-              Nicola Pressi
-              <small>Front-end designer</small>
-            </h4>
-            <div class='card-links'>
-              <a class='fa fa-dribbble' href='#'></a>
-              <a class='fa fa-twitter' href='#'></a>
-              <a class='fa fa-facebook' href='#'></a>
+        <div class="row">
+          <div class="col-md-6">
+            <div class='card card-profile text-center'>
+              <img alt='' class='card-img-top' src='https://unsplash.it/340/160?image=354'>
+              <div class='card-block'>
+                <!-- <img alt='' class='card-img-profile' src='https://it.gravatar.com/userimage/3434071/205a00fc16ae537b26b56f40790910fe.jpg?size=140'> -->
+                <h4 class='card-title'>
+                  Nicola Pressi
+                  <small>Front-end designer</small>
+                </h4>
+                <div class='card-links'>
+                  <a href="morepages/editprofile.html" class="btn btn-md" role="button" aria-pressed="true">Edit</a>
+                </div>
+                <div class="card-footer">
+                  <!-- <p>aaaaaaaaaaaaa</p> -->
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-6">
+            <div id="accordion">
+              <div class="card">
+                <div class="card-title title">
+                  <h4>About Me</h4>
+                </div>
+                <div class="card-header" id="headingOne">
+                    <a class="" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                      Interest
+                    </a>
+                </div>
+                <div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#accordion">
+                  <div class="card-body">
+                    Photograhpy, Animal, Food 
+                  </div>
+                </div>
+              </div>
+
+              <div class="card">
+                <div class="card-header" id="headingTwo">
+                    <a class="" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                      Hobby
+                    </a>
+                </div>
+                <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
+                  <div class="card-body">
+                    Swimming
+                  </div>
+                </div>
+              </div>
+
+              <div class="card">
+                <div class="card-header" id="headingThree">
+                    <a class="" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                      Contact
+                    </a>
+                </div>
+                <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordion">
+                  <div class="card-body">
+                    081223239422
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
         </div>
-      </main>
+        
           
+        
+      </main>  
     </body>
 </html>

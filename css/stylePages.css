@@ -59,6 +59,11 @@
   .nav-item i{
     padding: 10px;
   }
+
+  nav a .navbar-brand{
+    text-align: center!important;
+    margin: 0 auto!important;
+  }
 }
 
 
@@ -74,12 +79,13 @@
 }
 .card-profile .card-img-top {
   border-radius: 0;
+  margin-bottom: 20px;
 }
 .card-profile .card-img-profile {
   max-width: 100%;
   border-radius: 50%;
-  margin-top: -95px;
-  margin-bottom: 35px;
+  margin-top: -40px;
+  margin-bottom: 15px;
   border: 5px solid #e6e5e1;
 }
 .card-profile .card-title {
@@ -93,33 +99,38 @@
 .card-profile .card-links {
   margin-bottom: 25px;
 }
-.card-profile .card-links .fa {
-  margin: 0 1em;
-  font-size: 1.6em;
-}
-.card-profile .card-links .fa:focus, .card-profile .card-links .fa:hover {
-  text-decoration: none;
-}
-.card-profile .card-links .fa.fa-dribbble {
-  color: #ea4b89;
-  font-weight: bold;
-}
-.card-profile .card-links .fa.fa-dribbble:hover {
-  color: #e51d6b;
-}
-.card-profile .card-links .fa.fa-twitter {
-  color: #68aade;
-}
-.card-profile .card-links .fa.fa-twitter:hover {
-  color: #3e92d5;
-}
-.card-profile .card-links .fa.fa-facebook {
-  color: #3b5999;
-}
-.card-profile .card-links .fa.fa-facebook:hover {
-  color: #2d4474;
+
+.card-profile .card-links a{
+  background-image: linear-gradient(to right, #f83600 0%, #f9d423 100%);
+  color: white;
 }
 
+
+
+
+#accordion{
+  padding: 15px;
+  margin-top: 60px;
+}
+
+#accordion .title{
+  background-image: linear-gradient(to right, #f83600 0%, #f9d423 100%);
+  padding: 15px;
+}
+#accordion .title h4{
+  color: white;
+  text-align: center;
+  margin: 0 auto;
+}
+
+#accordion .card-body{
+  text-decoration: none!important;
+}
+
+#accordion .card-header a{
+  text-decoration: none;
+  cursor: pointer;
+}
 
 
 /* event */
@@ -146,60 +157,3 @@
     
 }
 
-
-/* calendar */
-
-/* body {
-    margin-top: 40px;
-    text-align: center;
-    font-size: 14px;
-    font-family: "Helvetica Nueue",Arial,Verdana,sans-serif;
-    background-color: #DDDDDD;
-    } */
-
-#wrap {
-    width: 100%;
-    margin: 0 auto;
-    }
-
-#external-events {
-    float: left;
-    width: 150px;
-    padding: 0 10px;
-    text-align: left;
-    }
-
-#external-events h4 {
-    font-size: 16px;
-    margin-top: 0;
-    padding-top: 1em;
-    }
-
-.external-event { /* try to mimick the look of a real event */
-    margin: 10px 0;
-    padding: 2px 4px;
-    background: #3366CC;
-    color: #fff;
-    font-size: .85em;
-    cursor: pointer;
-    }
-
-#external-events p {
-    margin: 1.5em 0;
-    font-size: 11px;
-    color: #666;
-    }
-
-#external-events p input {
-    margin: 0;
-    vertical-align: middle;
-    }
-
-#calendar {
-/* 		float: right; */
-    margin: 0 auto;
-    width: 900px;
-    background-color: #FFFFFF;
-      border-radius: 6px;
-    box-shadow: 0 1px 2px #C3C3C3;
-    }
