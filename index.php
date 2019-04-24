@@ -1,4 +1,8 @@
-<!DOCTYPE html>
+<?php
+include "database/event.php";
+var_dump($row["nama"]) ;
+
+?>
 <html>
     <head lang="en">
         <meta charset="UTF-8">
@@ -74,7 +78,7 @@
                 
                             <div class="stuff">
                                 <h3>“Bersama kami, kamu akan mendapatkan teman ngobrol hingga teman hidup”<br>
-                                    <i>- Rendra</i></h3>
+                                    <i>- Rendra <?php  ?></i></h3>
                             </div>
                 
             </div>
