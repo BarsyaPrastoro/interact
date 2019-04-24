@@ -132,6 +132,10 @@
   cursor: pointer;
 }
 
+#accordion .card-header i{
+  float: right;
+}
+
 
 /* event */
 
