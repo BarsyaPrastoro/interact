@@ -305,6 +305,9 @@ section{
     margin: 0;
     color: #1a1a1a;
 }
+.service-icon i{
+    margin-top: 35px;
+}
 
 
 /* .serviceBox.pink:after{ border-color: #FF7BD1; }
@@ -683,7 +686,7 @@ section{
 .footer{
     background-color: #1a1a1a;
     width: 100%;
-    height: 100%;
+    
     padding: 20px;
     border-left: 40px solid goldenrod;
     
