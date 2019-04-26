@@ -86,7 +86,7 @@
                 </div>
             </div>
             <div class="create">
-                <span class="fa fa-plus"></span>
+                <a href="morepages/createevent.php"><span class="fa fa-plus"></span></a>
             </div>
         </section>
     </main>

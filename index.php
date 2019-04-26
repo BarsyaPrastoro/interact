@@ -8,7 +8,7 @@
 
     <link rel="stylesheet" href="css/bootstrap/bootstrap.min.css">
     <link rel="stylesheet" href="css/style.css">
-    <!-- <link rel="stylesheet" href="css/responsive.css"> -->
+    <link rel="stylesheet" href="css/responsive.css">
     <link rel="stylesheet" href="css/animated.css">
 
 
@@ -58,7 +58,7 @@
                         <a class="nav-link" href="#contact">Contact</a>
                     </li>
                     <li class="nav-item">
-                        <i class="nav-link fa fa-arrow-circle-right" aria-hidden="true" href="" data-toggle="modal" data-target="#modalLRForm"></i>
+                        <i class="nav-link fa fa-sign-in-alt" aria-hidden="true" href="" data-toggle="modal" data-target="#modalLRForm" style="cursor: pointer;"></i>
                     </li>
 
                 </ul>
@@ -397,7 +397,7 @@
                         <h4>More About Us</h4>
                     </div> -->
                 <div class="desk">
-                    <p>“Graphic design will save the world right after rock and roll does.”</p>
+                    <p>“Selalu kelilingi diri Anda dengan teman-teman yang memiliki banyak cahaya di dalamnya. Dengan begitu, Anda akan selalu memiliki lilin di sekitar Anda saat hari gelap.” </p>
                     <div class="media">
                         <span class="fab fa-twitter"></span>
                         <span class="fab fa-instagram"></span>
