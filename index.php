@@ -303,66 +303,88 @@
                                     <button class="btn btn-info"><a href="pages/profile.php">Log in</a></button>
                                 </div>
                             </div>
-                            <div class="modal-footer">
-
-                            </div>
+                            
                         </div>
 
                         <div class="tab-pane fade" id="panel8" role="tabpanel">
                             <div class="modal-body">
-                                <div class="md-form">
-                                    <div class="form-row">
-                                        <div class="col-md-2">
-                                            <i class="fas fa-user grey-text"></i>
-                                        </div>
-                                        <div class="col-md-10">
-                                            <input type="name" id="name" class="form-control mb-4" placeholder="Username">
-                                        </div>
-                                    </div>
-                                </div>
+                                <div class="row">
+                                    <div class="col-md-6">
+                                        <div class="md-form">
+                                            <div class="form-row">
 
-                                <div class="md-form">
-                                    <div class="form-row">
-                                        <div class="col-md-2">
-                                            <i class="fas fa-phone grey-text"></i>
+                                                <div class="col-md-2">
+                                                    <i class="fas fa-user grey-text"></i>
+                                                </div>
+                                                <div class="col-md-10">
+                                                    <input type="name" id="name" class="form-control mb-4" placeholder="Username">
+                                                </div>
+                                            </div>
                                         </div>
-                                        <div class="col-md-10">
-                                            <input type="number" id="number" class="form-control mb-4" placeholder="Phone Number">
+
+                                        <div class="md-form">
+                                            <div class="form-row">
+                                                <div class="col-md-2">
+                                                    <i class="fas fa-phone grey-text"></i>
+                                                </div>
+                                                <div class="col-md-10">
+                                                    <input type="number" id="number" class="form-control mb-4" placeholder="Phone Number">
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="md-form">
+                                            <div class="form-row">
+                                                <div class="col-md-2">
+                                                    <i class="fas fa-envelope grey-text"></i>
+                                                </div>
+                                                <div class="col-md-10">
+                                                    <input type="email" id="emailRegister" class="form-control mb-4" placeholder="E-mail">
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="md-form">
+                                            <div class="form-row">
+                                                <div class="col-md-2">
+                                                    <i class="fas fa-lock grey-text"></i>
+                                                </div>
+                                                <div class="col-md-10">
+                                                    <input type="password" id="passwordRegister" class="form-control mb-4" placeholder="Password">
+                                                </div>
+                                            </div>
                                         </div>
                                     </div>
-                                </div>
-                                <div class="md-form">
-                                    <div class="form-row">
-                                        <div class="col-md-2">
-                                            <i class="fas fa-envelope grey-text"></i>
+                                    <div class="col-md-6 text-center">
+                                        <div class="button-group">
+                                            <button type="button" class="btn btn-default btn-sm dropdown-toggle" data-toggle="dropdown"><span class="fas fa-hand-holding-heart"></span> <span class="caret">Interest</span></button>
+                                            <ul class="dropdown-menu">
+                                                <li><a href="#" class="small" data-value="option1" tabIndex="-1"><input type="checkbox" />&nbsp;Option 1</a></li>
+                                                <li><a href="#" class="small" data-value="option2" tabIndex="-1"><input type="checkbox" />&nbsp;Option 2</a></li>
+                                                <li><a href="#" class="small" data-value="option3" tabIndex="-1"><input type="checkbox" />&nbsp;Option 3</a></li>
+                                                <li><a href="#" class="small" data-value="option4" tabIndex="-1"><input type="checkbox" />&nbsp;Option 4</a></li>
+                                                <li><a href="#" class="small" data-value="option5" tabIndex="-1"><input type="checkbox" />&nbsp;Option 5</a></li>
+                                                <li><a href="#" class="small" data-value="option6" tabIndex="-1"><input type="checkbox" />&nbsp;Option 6</a></li>
+                                                <li><a href="#" class="small" data-value="option6" tabIndex="-1"><input type="checkbox" />&nbsp;Option 7</a></li>
+                                                <li><a href="#" class="small" data-value="option6" tabIndex="-1"><input type="checkbox" />&nbsp;Option 8</a></li>
+                                                <li><a href="#" class="small" data-value="option6" tabIndex="-1"><input type="checkbox" />&nbsp;Option 9</a></li>
+                                                <li><a href="#" class="small" data-value="option6" tabIndex="-1"><input type="checkbox" />&nbsp;Option 10</a></li>
+                                            </ul>
                                         </div>
-                                        <div class="col-md-10">
-                                            <input type="email" id="emailRegister" class="form-control mb-4" placeholder="E-mail">
-                                        </div>
+                                        
                                     </div>
-                                </div>
-                                <div class="md-form">
-                                    <div class="form-row">
-                                        <div class="col-md-2">
-                                            <i class="fas fa-lock grey-text"></i>
-                                        </div>
-                                        <div class="col-md-10">
-                                            <input type="password" id="passwordRegister" class="form-control mb-4" placeholder="Password">
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="text-center form-sm mt-2">
-                                    <button class="btn btn-info">Sign up <i class="fas fa-sign-in ml-1"></i></button>
                                 </div>
                             </div>
-                            <div class="modal-footer">
-
+                            <div class="text-center form-sm mt-2">
+                                <button class="btn btn-info">Sign up <i class="fas fa-sign-in ml-1"></i></button>
                             </div>
+                        </div>
+                        <div class="modal-footer">
+
                         </div>
                     </div>
                 </div>
             </div>
         </div>
+    </div>
     </div>
 
 

@@ -123,9 +123,9 @@
           <a class="nav-link" href="transaksi.php"><i class="fas fa fa-shopping-cart"></i>Transaksi <span class="sr-only">(current)</span></a>
         </li>
       </ul>
-          
-        <span class="fas fa-sign-out-alt btn-logout ml-auto" title="logout"></span>
-      
+
+      <!-- <span class="fas fa-sign-out-alt btn-logout ml-auto" title="logout"><a class="fas fa-sign-out-alt btn-logout ml-auto" href="index.php"></span></a> -->
+      <a class="fas fa-sign-out-alt btn-logout ml-auto" href="../index.php"></a>
 
     </div>
   </nav>
