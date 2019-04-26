@@ -3,7 +3,8 @@
 $con = new mysqli("localhost","root","","interact");
 
 if ($con->connect_error) {
-			die('cannot connect to database');
-		}
+	die('cannot connect to database');
+}
 
- ?>
+
+?>
