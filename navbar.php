@@ -110,7 +110,7 @@
 
     <div class="collapse navbar-collapse" id="navbarCollapse">
       <ul class="navbar-nav sidenav" id="navAccordion">
-        <li class="nav-item active">
+        <li class="nav-item">
           <a class="nav-link" href="profile.php"><i class="fas fa fa-home"></i>Profile <span class="sr-only">(current)</span></a>
         </li>
         <li class="nav-item">
@@ -122,11 +122,16 @@
         <li class="nav-item">
           <a class="nav-link" href="transaksi.php"><i class="fas fa fa-shopping-cart"></i>Transaksi <span class="sr-only">(current)</span></a>
         </li>
+        <li class="nav-item">
+          <a class="nav-link" href="morepages/createevent.php"><i class="fas fa fa-plus-square"></i>Create Event <span class="sr-only">(current)</span></a>
+        </li>
       </ul>
-
       <!-- <span class="fas fa-sign-out-alt btn-logout ml-auto" title="logout"><a class="fas fa-sign-out-alt btn-logout ml-auto" href="index.php"></span></a> -->
       <a class="fas fa-sign-out-alt btn-logout ml-auto" href="../index.php"></a>
 
+    </div>
+    <div>
+      
     </div>
   </nav>
 </body>

@@ -2,6 +2,12 @@
 <?php
 require '../session.php';
 require '../connection.php';
+
+$email = $_SESSION['email'];
+
+$sql = "SELECT acara.id, acara.nama as 'namaacara', acara.deskripsi, acara.tanggal, acara.tempat, acara.harga, acara.kreator, acara.tanggalpengajuan,acara.status, acara.foto, tempat.id as 'idtempat', tempat.nama as 'namatempat', tempat.alamat, tempat.telpon FROM acara JOIN tempat ON acara.tempat = tempat.id ";
+$acara= mysqli_query($con,$sql) or die(mysqli_error($con));
+
 ?>
 <head lang="en">
     <meta charset="UTF-8">

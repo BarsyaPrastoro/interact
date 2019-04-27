@@ -1,5 +1,7 @@
+<?php
+require '../../session.php';
+?>
 <html>
-
 <head lang="en">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -135,33 +137,30 @@
 
 
     <main class="content-wrapper">
-        <form class="form-create">
+        <form method="post" class="form-create">
             <div class="form-group">
-                <label for="exampleInputEmail1">Event Name</label>
-                <input type="event" class="form-control" id="event" placeholder="Enter your event">
+                <label for="nama">Event Name</label>
+                <input name="nama" type="event" class="form-control" id="event" placeholder="Enter your event name">
                 <!-- <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small> -->
             </div>
             <div class="form-group">
-                <label for="exampleInputPassword1">Password</label>
-                <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+                <label for="deskripsi">Description</label>
+                <input name="deskripsi" type="text " class="md-textarea form-control" id="exampleInputPassword1" placeholder="event description">
             </div>
             <div class="form-group">
                 <label for="exampleFormControlSelect1">Place</label>
-                <select class="form-control" id="place">
-                    <option>Zero Hour</option>
-                    <option>Eat Boss</option>
+                <select name="tempat" class="form-control" id="place">
+                    <option value="3">Zero Hour</option>
+                    <option value="2">Eat Boss</option>
+                    <option value="1">UNPAR</option>
                 </select>
             </div>
             <div class="form-group">
-                <label for="exampleFormControlSelect1">Choose Your Event</label>
-                <select class="form-control" id="place">
-                    <option>Photography</option>
-                    <option>Animal</option>
-                    <option>Food</option>
-                </select>
+                <label for="harga" >PRICE</label>
+                <input name="harga" type="event" class="form-control" id="event" placeholder="ENTER THE COST TO JOIN YOUR EVENT">
             </div>
             
-            <button type="submit" class="btn btn-secondary">Submit</button>
+            <button type="submit" name="createevent" class="btn btn-secondary">Submit</button>
         </form>
     </main>
 </body>

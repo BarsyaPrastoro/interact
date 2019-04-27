@@ -11,14 +11,14 @@ if (isset($_POST['login'])) {
     $result1 = $con->query($sql1);
     
     //user
-    $sql2="SELECT * FROM `pengguna` where email='$email' and password='$password' and role=0"; 
+    $sql2="SELECT * FROM pengguna where email='$email' and password='$password' and role=0"; 
     $result2 = $con->query($sql2);
 
 
-    if(mysqli_num_rows($result1)==1){        
+    if(mysqli_num_rows($result1)>0){        
         $_SESSION['email'] = $email;
         header('location: pages/admin/admin.php');
-    }else if(mysqli_num_rows($result2)==1){        
+    }else if(mysqli_num_rows($result2)>0){        
         $_SESSION['email'] = $email;
         header('location: pages/event.php');
     }else{
@@ -40,6 +40,25 @@ else if(isset($_POST['signup'])){
     else { 
         echo "DATA ENTRY FAILED"; 
     }
+}
+else if(isset($_POST['createevent'])){
+    $idkreator = 1;
+    $idtempat = 1;
+    $nama = $_POST['nama'];
+    $deskripsi = $_POST['deskripsi'];
+    $harga = $_POST['harga'];
+    $tanggal = date("M,d,Y h:i:s A");
+
+    $sql5 ="INSERT INTO `acara`
+    (`id`,`nama`,`deskripsi`,`tanggal`,`tempat`,`harga`,`kreator`,`tanggalpengajuan`,`status`, `foto`) VALUES 
+    ('','$nama', '$deskripsi','$tanggal', '$idtempat','$harga','$idkreator','$tanggal','0','')";
+    if (mysqli_query($con, $sql5)) {
+        echo "DATA ENTRY COMPLETE";
+        header('location: ../event.php');
+    }else{
+        echo "DATA ENTRY FAILED";
+    }
+
 }
 
 
