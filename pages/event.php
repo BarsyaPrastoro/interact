@@ -53,8 +53,13 @@ $acara= mysqli_query($con,$sql) or die(mysqli_error($con));
                             <p class="card-text">Tempat: <?= $acaras['namatempat'] ?></p>
                             <p class="card-text">Alamat: <?= $acaras['alamat'] ?></p>
                             <p class="card-text">Tanggal/Jam: <?= $acaras['tanggal'] ?></p>
+                            <p class="card-text">registration fee: Rp.<?= $acaras['harga'] ?></p>
                             <p class="card-text"><?= $acaras['deskripsi'] ?></p>
-                            <a href="#" class="btn btn-primary">Join Event</a>
+                            <?php 
+                            $idevent = $acaras['id'];
+                            $harga = $acaras['harga'];
+                            $nama = $acaras['namaacara']; ?>
+                            <a href="../indexmidtrans.php/?idevent=<?php echo $idevent.'&harga='.$harga .'&nama='.$nama?>" class="btn btn-primary">Join Event</a>
                         </div>
                     </div>
                 <?php endwhile; ?> 
